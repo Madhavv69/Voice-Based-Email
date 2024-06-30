@@ -27,10 +27,27 @@ This project is designed to assist visually impaired individuals in composing an
 
 3. **Set Environment Variables:**
    * Create a .env file in the project directory.
-  * Add your email credentials:
+   * Add your email credentials:
     ```bash
     EMAIL_USER=your_email@gmail.com
     EMAIL_APP_PASS=your_app_password
-
     ```
+4.Run the Application
+    ```bash
+     python main.py
+    ```
+5.Interact with the Application
+* Follow the voice prompts to compose emails, check inbox, or logout.
+* Speak clearly and wait for the system to process your commands.
+  
+## Project Structure
+* main.py: Main script for running the voice-based email system.
+* utils.py: Utility functions including email preprocessing and speech functions.
+* README.md: Documentation file providing information about the project.
+  
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
