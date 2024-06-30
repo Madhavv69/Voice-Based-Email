@@ -1,4 +1,4 @@
-#Voice-Based Email System for Visually Impaired
+Voice-Based Email System for Visually Impaired
 This project is designed to assist visually impaired individuals in composing and managing emails using voice commands. The system integrates speech recognition and synthesis technologies to facilitate hands-free email interaction.
 
 Features
