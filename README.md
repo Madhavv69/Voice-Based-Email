@@ -15,5 +15,26 @@ This project is designed to assist visually impaired individuals in composing an
 
 ## Setup Instructions
 1.Clone the Repository
-> git clone https://github.com/yourusername/Voice-Based-Email-System.git
-> cd Voice-Based-Email-System
+bash
+Copy code
+git clone https://github.com/yourusername/Voice-Based-Email-System.git
+cd Voice-Based-Email-System
+2.Install Dependencies
+
+bash
+Copy code
+pip install -r requirements.txt
+3.Set Environment Variables
+
+Create a .env file in the project directory.
+Add your email credentials:
+makefile
+Copy code
+EMAIL_USER=your_email@gmail.com
+EMAIL_APP_PASS=your_app_password
+4.Run the Application
+
+bash
+Copy code
+python main.py
+
