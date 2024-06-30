@@ -14,29 +14,23 @@ This project is designed to assist visually impaired individuals in composing an
 * Beautiful Soup: Used for parsing email content from HTML emails.
 
 ## Setup Instructions
-1.Clone the Repository
-bash
-'''
-git clone https://github.com/yourusername/Voice-Based-Email-System.git
-cd Voice-Based-Email-System
+1. **Clone the Repository:**
+    ```bash
+    git clone https:https://github.com/Madhavv69/Hand-Gesture-Recognition-and-Voice-Conversion-for-Deaf-and-Dumb.git
+    cd Voice-Based-Email-System
+    ```
 
-'''
-2.Install Dependencies
+2. **Install Dependencies:**
+    ```bash
+   pip install -r requirements.txt
+    ```
 
-bash
-Copy code
-pip install -r requirements.txt
-3.Set Environment Variables
+3. **Set Environment Variables:**
+   * Create a .env file in the project directory.
+  * Add your email credentials:
+    ```bash
+    EMAIL_USER=your_email@gmail.com
+    EMAIL_APP_PASS=your_app_password
 
-Create a .env file in the project directory.
-Add your email credentials:
-makefile
-Copy code
-EMAIL_USER=your_email@gmail.com
-EMAIL_APP_PASS=your_app_password
-4.Run the Application
-
-bash
-Copy code
-python main.py
+    ```
 
