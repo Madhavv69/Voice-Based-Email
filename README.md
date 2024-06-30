@@ -15,5 +15,5 @@ This project is designed to assist visually impaired individuals in composing an
 
 ## Setup Instructions
 1.Clone the Repository
-git clone https://github.com/yourusername/Voice-Based-Email-System.git
-cd Voice-Based-Email-System
+> git clone https://github.com/yourusername/Voice-Based-Email-System.git
+> cd Voice-Based-Email-System
